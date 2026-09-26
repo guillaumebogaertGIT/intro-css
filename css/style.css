@@ -1,5 +1,7 @@
 /* this is a css style sheet*/
 
+/* rewatch frontend masters notes if needed.*/
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ffffcc;
@@ -19,4 +21,27 @@ blockquote {
 }
 cite {
     font-size: 1.5rem;
+     /*rem is like pixel size but for that specific borwser or web app it is better than pixels bcs 48 pixels would be good on oc but not on a phone */
+}
+.bigbold { /*classes start with periods*/
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+ul a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: lightblue;
+}
+a:visited {
+    color:green;
+    font-size: 7rem; 
+    font-weight:normal;
+}
+a:hover {
+    color: orange;
+    text-decoration: underline;
+    background-color: black;
+}
+a.harvard:link {
+    color: maroon;
 }
